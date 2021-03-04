@@ -1,0 +1,64 @@
+.matches-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+img {
+    width: 50px;
+    height: 70px;
+    margin: 5px;
+    border-radius: 5px;
+} 
+
+.matches {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.matche-btn {
+    margin: 5px;
+    border-radius: 5px;
+}
+
+.matche-btn:hover {
+    cursor: pointer;
+}
+
+.move-btn {
+    width: 10em;
+    height: 4em;
+    border-radius: 3px;
+    font-size: 1em;
+    background: #FF4500;
+    color: #fff;
+    border: #FF4500;
+    margin: 1em 0;
+}
+
+.disabled {
+    background: #ccc;
+}
+
+.move-btn:hover {
+    cursor: pointer;
+}
+
+.score-table {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.matches-result {
+    border: 2px solid #000;
+    border-radius: 3px;
+    margin: 0.5em;
+    padding: 0 0.5em;
+    background: #FF7F50;
+    color: #000;
+}
+
+.matches-result > p {
+    font-size: 1.5em;
+}

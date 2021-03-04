@@ -1,0 +1,27 @@
+.finis-game-container {
+    width: 80%;
+    margin: 20px auto;
+    border: 2px solid #000;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.finish-btn {
+    width: 10em;
+    height: 4em;
+    margin: 1em 0;
+    background: #fff;
+    font-size: 1em;
+}
+
+.finish-btn:hover {
+    cursor: pointer;
+    background: #00FF00;
+}
+
+.finis-game-container > p {
+    font-size: 2em;
+}
